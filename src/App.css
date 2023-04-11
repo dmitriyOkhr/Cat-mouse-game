@@ -1,38 +1,121 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.all_page {
+  font-family: "Teko", sans-serif;
+  background-image: url("./icons/game-background.jpg");
+  width: 100%;
+  height: 85vh;
+  padding-bottom: 7%;
   display: flex;
   flex-direction: column;
+  overflow-y: hidden;
+}
+
+.general_part {
+  width: 96%;
+  height: 50px;
+  padding: 2%;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.board {
+  position: relative;
+  background-image: url("./icons/mars.jpg");
+  background-size: cover;
+  margin: 2% auto 0;
+  width: 80%;
+  height: 100vh;
+  border: 5px solid rgb(224, 132, 11);
+  border-radius: 5px;
+  background-color: transparent;
+  z-index: 1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.dot {
+  position: absolute;
+  background-image: url("./icons/catHead.svg");
+  background-size: cover;
+  width: 65px;
+  height: 56px;
+  z-index: 2;
+}
+
+.food {
+  position: absolute;
+  background-image: url("./icons/mouse.svg");
+  background-size: cover;
+  width: 36px;
+  height: 36px;
+  z-index: 1;
+}
+
+.btn {
+  font-family: "Teko", sans-serif;
+  text-align: center;
+  border-radius: 12px;
+  border: none;
+  width: 270px;
+  height: 40px;
+  background-color: #cc641f;
+  color: #eaeaeb;
+  font-size: 24px;
+}
+
+.btn:focus-visible {
+  outline: none;
+}
+
+.new_game_btn {
+  font-family: "Teko", sans-serif;
+  text-align: center;
+  border-radius: 12px;
+  border: none;
+  width: 300px;
+  height: 50px;
+  background-color: rgb(137, 9, 9);
+  color: #eaeaeb;
+  font-size: 24px;
+}
+
+.new_game_btn:focus-visible {
+  outline: none;
+}
+
+.score {
+  text-align: center;
+  font-size: 34px;
+  color: #cc641f;
+}
+
+@media (max-width: 1024px) {
+  .board {
+    max-width: 86%;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (max-width: 680px) {
+  /* .all_page {
+      height: auto;
+  } */
+
+  .general_part {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .score,
+  .btn,
+  .new_game_btn {
+    margin-bottom: 3%;
+  }
+
+  .dot {
+    width: 55px;
+    height: 55px;
+  }
+
+  .food {
+    width: 30px;
+    height: 30px;
   }
 }
