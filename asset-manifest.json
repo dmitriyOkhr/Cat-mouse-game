@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Cat-mouse-game/static/css/main.acbd1493.css",
-    "main.js": "/Cat-mouse-game/static/js/main.ab902ed8.js",
-    "static/media/mars.jpg": "/Cat-mouse-game/static/media/mars.c3dbeda916940dc635ce.jpg",
-    "static/media/game-background.jpg": "/Cat-mouse-game/static/media/game-background.81c6d1823f70c074d253.jpg",
-    "static/media/startGame.wav": "/Cat-mouse-game/static/media/startGame.9b5b1a6223e1057f8898.wav",
-    "static/media/eaten.wav": "/Cat-mouse-game/static/media/eaten.1936d44856522cdf9698.wav",
-    "static/media/gameOver.wav": "/Cat-mouse-game/static/media/gameOver.d4e2b8dd6da4eb5a1f67.wav",
-    "static/media/mouse.svg": "/Cat-mouse-game/static/media/mouse.4fa291a32301a64e4bba.svg",
-    "static/media/catHead.svg": "/Cat-mouse-game/static/media/catHead.66eee23833e2225209ac.svg",
-    "index.html": "/Cat-mouse-game/index.html",
-    "main.acbd1493.css.map": "/Cat-mouse-game/static/css/main.acbd1493.css.map",
-    "main.ab902ed8.js.map": "/Cat-mouse-game/static/js/main.ab902ed8.js.map"
+    "main.css": "/cat-mouse-game/static/css/main.15f888f5.css",
+    "main.js": "/cat-mouse-game/static/js/main.f24b6cce.js",
+    "static/media/mars.jpg": "/cat-mouse-game/static/media/mars.c3dbeda916940dc635ce.jpg",
+    "static/media/game-background.jpg": "/cat-mouse-game/static/media/game-background.81c6d1823f70c074d253.jpg",
+    "static/media/startGame.wav": "/cat-mouse-game/static/media/startGame.9b5b1a6223e1057f8898.wav",
+    "static/media/eaten.wav": "/cat-mouse-game/static/media/eaten.1936d44856522cdf9698.wav",
+    "static/media/gameOver.wav": "/cat-mouse-game/static/media/gameOver.d4e2b8dd6da4eb5a1f67.wav",
+    "static/media/mouse.svg": "/cat-mouse-game/static/media/mouse.4fa291a32301a64e4bba.svg",
+    "static/media/catHead.svg": "/cat-mouse-game/static/media/catHead.66eee23833e2225209ac.svg",
+    "index.html": "/cat-mouse-game/index.html",
+    "main.15f888f5.css.map": "/cat-mouse-game/static/css/main.15f888f5.css.map",
+    "main.f24b6cce.js.map": "/cat-mouse-game/static/js/main.f24b6cce.js.map"
   },
   "entrypoints": [
-    "static/css/main.acbd1493.css",
-    "static/js/main.ab902ed8.js"
+    "static/css/main.15f888f5.css",
+    "static/js/main.f24b6cce.js"
   ]
 }
